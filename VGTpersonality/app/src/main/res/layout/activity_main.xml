@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282c34"
+    android:backgroundTint="#282c34"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="199dp"
+                android:layout_height="348dp"
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:text="Com habilidades abrangentes que abrangem tanto o desenvolvimento front-end quanto o back-end, estamos preparados para enfrentar desafios e oferecer soluções inovadoras. Desde a concepção até a implementação, nossa equipe está focada em entregar resultados de alta qualidade que atendam às suas necessidades e superem suas expectativas."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:layout_marginTop="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="329dp"
+                android:layout_height="338dp"
+                android:layout_marginTop="68dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view2"
+                app:srcCompat="@drawable/foto3" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:translationZ="1dp"
+                app:layout_constraintBottom_toBottomOf="@+id/view2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/view2"
+                app:layout_constraintTop_toTopOf="@+id/view2"
+                app:srcCompat="@drawable/vgt2" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="413dp"
+                android:layout_height="125dp"
+                android:background="#1e1e1e"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:text="QUEM SOMOS"
+                android:textColor="#FBFAFA"
+                android:textColorLink="#FBFAFA"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view2"
+                app:layout_constraintVertical_bias="0.442" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="198dp"
+                android:layout_height="136dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:text="Somos um grupo de três estudantes dedicados e comprometidos com a tecnologia full stack, prontos para contribuir para o sucesso do seu projeto."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.493"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <View
+                android:id="@+id/container_skills"
+                android:layout_width="252dp"
+                android:layout_height="913dp"
+                android:background="@drawable/rounded_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/nossas_skills"
+                android:layout_width="162dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:text="Nossas Skills"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <ImageView
+                android:id="@+id/ic_react"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/nossas_skills"
+                app:srcCompat="@drawable/ic_reac" />
+
+            <ImageView
+                android:id="@+id/python"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/ic_react"
+                app:srcCompat="@drawable/python" />
+
+            <ImageView
+                android:id="@+id/js"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/python"
+                app:srcCompat="@drawable/js" />
+
+            <ImageView
+                android:id="@+id/go"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/js"
+                app:srcCompat="@drawable/golang" />
+
+            <ImageView
+                android:id="@+id/mui"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/go"
+                app:srcCompat="@drawable/mui" />
+
+            <ImageView
+                android:id="@+id/java"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/mui"
+                app:srcCompat="@drawable/java" />
+
+            <ImageView
+                android:id="@+id/spring"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/container_skills"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="@+id/container_skills"
+                app:layout_constraintTop_toBottomOf="@+id/java"
+                app:srcCompat="@drawable/spring" />
+
+            <View
+                android:id="@+id/linha_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                android:background="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/container_skills" />
+
+            <TextView
+                android:id="@+id/portifolio"
+                android:layout_width="162dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:text="Portifólio"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linha_horizontal" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/carouselRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                app:layoutManager="com.google.android.material.carousel.CarouselLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/portifolio" />
+
+            <View
+                android:id="@+id/linha_horizontal2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"
+                android:background="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carouselRecyclerView" />
+
+            <TextView
+                android:id="@+id/personalidade"
+                android:layout_width="161dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:text="Teste de para DEVS 👇🏼"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linha_horizontal2" />
+
+            <Button
+                android:fontFamily="@font/jetbrains_mono_medium"
+                android:backgroundTint="#5271ff"
+                android:text="CLICA EM MIM"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="26dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/personalidade"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
