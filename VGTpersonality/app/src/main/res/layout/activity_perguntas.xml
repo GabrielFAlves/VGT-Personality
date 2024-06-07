@@ -77,11 +77,6 @@
                     android:text="Espaço de coworking"
                     android:textColor="#FFFFFF"/>
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Outro"
-                    android:textColor="#FFFFFF"/>
             </RadioGroup>
 
             <TextView
