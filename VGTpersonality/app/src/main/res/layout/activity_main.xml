@@ -258,8 +258,8 @@
 
             <TextView
                 android:id="@+id/personalidade"
-                android:layout_width="161dp"
-                android:layout_height="49dp"
+                android:layout_width="165dp"
+                android:layout_height="68dp"
                 android:layout_marginTop="28dp"
                 android:fontFamily="@font/jetbrains_mono_medium"
                 android:text="Teste de para DEVS 👇🏼"
